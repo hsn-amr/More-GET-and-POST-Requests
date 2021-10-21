@@ -85,6 +85,8 @@ class MainActivity : AppCompatActivity() {
                     input.text.clear()
                     done = 0
 
+                }else{
+                    Toast.makeText(this@MainActivity,"Type More Names", Toast.LENGTH_LONG).show()
                 }
             }else{
                 Toast.makeText(this@MainActivity,"Type Names", Toast.LENGTH_LONG).show()
